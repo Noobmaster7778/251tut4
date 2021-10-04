@@ -7,6 +7,7 @@ public class TestCalc {
     public void test(){
         assert Calc.add(1,2)==3;
     }
+    /*aasdada*/
     @Test
     public void test2(){
         assert Calc.subtract(1,2)==-1;
