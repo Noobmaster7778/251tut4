@@ -5,6 +5,10 @@ import org.junit.jupiter.api.Test;
 public class TestCalc {
     @Test
     public void test(){
-        Calc.add(1,2);
+        assert Calc.add(1,2)==3;
+    }
+    @Test
+    public void test2(){
+        assert Calc.subtract(1,2)==-1;
     }
 }
